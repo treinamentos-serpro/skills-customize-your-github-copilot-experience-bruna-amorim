@@ -65,6 +65,13 @@
       "description": "--title",
       "path": "assignments/--id",
       "dueDate": "2026-09-22"
+    },
+    {
+      "id": "--id",
+      "title": "python-functions-modules",
+      "description": "--title",
+      "path": "assignments/--id",
+      "dueDate": "2026-09-22"
     }
   ]
 }
