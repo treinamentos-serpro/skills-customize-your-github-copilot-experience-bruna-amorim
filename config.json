@@ -58,6 +58,13 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "--id",
+      "title": "fastapi-rest-apis",
+      "description": "--title",
+      "path": "assignments/--id",
+      "dueDate": "2026-09-22"
     }
   ]
 }
