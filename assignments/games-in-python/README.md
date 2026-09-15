@@ -1,19 +1,48 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Praticar o uso de strings, listas, condicionais e laços em Python ao desenvolver um jogo interativo da forca, com controle de erros e feedback ao usuário.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Seleção de Palavra e Estado do Jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie uma lista de palavras e escolha uma aleatoriamente para iniciar cada rodada. O programa deve manter o estado da palavra ocultada e acompanhar as letras já tentadas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- armazenar uma lista de palavras predefinida
+- escolher uma palavra aleatória no início da partida
+- mostrar a palavra oculta com espaços ou underscores para cada letra
+- registrar as letras já tentadas pelo jogador
+
+### 🛠️ Lógica de Entrada e Validação
+
+#### Descrição
+Implemente a entrada do usuário, valide as tentativas e atualize o progresso do jogo conforme as letras informadas.
+
+#### Requisitos
+O programa concluído deve:
+
+- receber entradas de letras em minúsculas ou maiúsculas
+- verificar se a letra já foi usada
+- revelar as posições corretas da palavra
+- reduzir o número de tentativas quando a letra estiver errada
+- exibir mensagens de feedback após cada tentativa
+
+### 🛠️ Condição de Vitória ou Derrota
+
+#### Descrição
+Finalize o jogo quando o jogador descobrir a palavra ou quando as tentativas forem esgotadas.
+
+#### Requisitos
+O programa concluído deve:
+
+- encerrar a partida quando a palavra for completamente revelada
+- encerrar a partida quando o número de tentativas chegar a zero
+- mostrar mensagem de vitória ou derrota ao final
+- exibir a palavra correta no fim da partida
